@@ -1,0 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+/********************** body ********************************/
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+}
+
+/**************** Header ****************************************/
+
+nav > div > ul > li > a {
+  color: #ff3399;
+}
+
+nav > div > ul > li > a:hover {
+  color: green;
+}
+
+/********************** Footer **************************************/
+
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td {
+  padding: 5px;
+  text-align: left;    
+}
+
